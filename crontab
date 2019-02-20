@@ -1,0 +1,2 @@
+0 1 * * * root . /root/project_env.sh; /usr/local/bin/perl /zap2xml.pl -u $USERZAP -p $PASSZAP -e -o /output/xmltv.xml  >> /var/log/cron.log 2>&1
+# empty line 
